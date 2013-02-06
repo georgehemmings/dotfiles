@@ -9,9 +9,6 @@
         helper = osxkeychain
 [alias]
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        count   = !git shortlog -sn
 [color]
         diff = auto
         status = auto
