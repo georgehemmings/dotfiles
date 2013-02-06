@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/gh/src/base16-builder'
-let g:netrw_dirhist_2='/Users/gh/src/base16-builder/output'
-let g:netrw_dirhist_3='/Users/gh/src/base16-builder'
-let g:netrw_dirhist_4='/Users/gh/src/base16-builder/schemes'
-let g:netrw_dirhist_5='/Users/gh/src/base16-builder'
-let g:netrw_dirhist_6='/Users/gh/src/base16-builder/schemes'
