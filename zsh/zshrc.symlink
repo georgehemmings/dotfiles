@@ -32,6 +32,7 @@ pathdirs=(
   /usr/local/bin
   /usr/bin
   /usr/sbin
+  /usr/local/share/npm/bin
   $DOTFILES_ROOT/bin
 )
 for dir in $pathdirs; do
