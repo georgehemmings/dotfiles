@@ -28,6 +28,9 @@ export EDITOR=gvim
 # Add a little colour to ri output.
 alias ri="ri -f ansi"
 
+# Pass unmatched arguments to command.
+setopt NO_NOMATCH
+
 PATH=/bin
 
 pathdirs=(
