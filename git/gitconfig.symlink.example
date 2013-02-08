@@ -9,6 +9,9 @@
         helper = osxkeychain
 [alias]
         co = checkout
+        s = status
+        unstage = reset HEAD
+        l = log --oneline --graph
 [color]
         diff = auto
         status = auto
