@@ -25,6 +25,9 @@ export DOTFILES_ROOT=$HOME/.dotfiles
 # Editor
 export EDITOR=gvim
 
+# Add a little colour to ri output.
+alias ri="ri -f ansi"
+
 PATH=/bin
 
 pathdirs=(
