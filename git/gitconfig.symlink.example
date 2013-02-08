@@ -6,7 +6,6 @@
 [user]
         name = AUTHORNAME
         email = AUTHOREMAIL
-        helper = osxkeychain
 [alias]
         co = checkout
         s = status
@@ -28,3 +27,5 @@
         prompt = false
 [help]
         autocorrect = 1
+[credential]
+	      helper = osxkeychain
