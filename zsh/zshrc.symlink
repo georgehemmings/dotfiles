@@ -31,6 +31,12 @@ alias ri="ri -f ansi"
 # Pass unmatched arguments to command.
 setopt NO_NOMATCH
 
+# Git aliases
+alias gg="git log --oneline --graph --decorate"
+alias gs="git status -s"
+alias guns="git reset HEAD"
+alias gdc="git diff --cached"
+
 PATH=/bin
 
 pathdirs=(

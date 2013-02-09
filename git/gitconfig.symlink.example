@@ -6,11 +6,6 @@
 [user]
         name = AUTHORNAME
         email = AUTHOREMAIL
-[alias]
-        co = checkout
-        s = status
-        unstage = reset HEAD
-        l = log --oneline --graph
 [color]
         diff = auto
         status = auto
