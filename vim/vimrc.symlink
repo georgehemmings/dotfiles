@@ -69,6 +69,12 @@ map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
+" Window navigation mappings.
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 if has("gui_running")
   set encoding=utf-8              " Use UTF-8 everywhere.
   set guioptions-=T               " Remove toolbar.
