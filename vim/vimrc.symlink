@@ -75,6 +75,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" minibufexplorer options.
+let g:miniBufExplMapCTabSwitchBufs = 1  " Ctrl+Tab switches buffer
+
 if has("gui_running")
   set encoding=utf-8              " Use UTF-8 everywhere.
   set guioptions-=T               " Remove toolbar.
