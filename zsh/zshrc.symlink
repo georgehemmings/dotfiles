@@ -46,16 +46,13 @@ pathdirs=(
   /usr/sbin
   /usr/local/share/npm/bin
   $DOTFILES_ROOT/bin
+  /usr/local/heroku/bin
 )
 for dir in $pathdirs; do
   if [ -d $dir ]; then
     path+=$dir
   fi
 done
-
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # Load RVM.
 source ~/.rvm/scripts/rvm
