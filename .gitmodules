@@ -7,3 +7,6 @@
 [submodule "vim/vim.symlink/bundle/command-t"]
 	path = vim/vim.symlink/bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "vim/vim.symlink/bundle/vim-ruby-runner"]
+	path = vim/vim.symlink/bundle/vim-ruby-runner
+	url = git://github.com/henrik/vim-ruby-runner.git
