@@ -13,3 +13,6 @@
 [submodule "vim/vim.symlink/bundle/ctrlp"]
 	path = vim/vim.symlink/bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "vim/vim.symlink/bundle/Kwbd"]
+	path = vim/vim.symlink/bundle/Kwbd
+	url = git://github.com/rgarver/Kwbd.vim.git
