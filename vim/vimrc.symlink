@@ -78,6 +78,8 @@ nnoremap <C-l> <C-w>l
 " minibufexplorer options.
 let g:miniBufExplMapCTabSwitchBufs = 1  " Ctrl+Tab switches buffer
 
+" Completion settings
+set completeopt= " Don't show a popup menu to show possible completions
 
 " Whitspace highlighting
 set list
