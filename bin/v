@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$1" == "" ] ; then
-  exec gvim --remote-silent .
+  exec gvim
 else
-  exec gvim --remote-silent "$1"  
+  exec gvim "$1"
 fi
