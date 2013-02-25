@@ -94,6 +94,14 @@ set listchars+=precedes:<  " The character to show in the first column when wrap
 set splitbelow
 set splitright
 
+" Tab navigation
+nnoremap <C-S-tab> :tabprevious<CR>
+nnoremap <C-tab>   :tabnext<CR>
+nnoremap <C-t>     :tabnew<CR>
+inoremap <C-S-tab> <Esc>:tabprevious<CR>i
+inoremap <C-tab>   <Esc>:tabnext<CR>i
+inoremap <C-t>     <Esc>:tabnew<CR>
+
 " F5 to strip trailing whitespace
 function! <SID>StripTrailingWhitespace()
     " Preparation: save last search, and cursor position.
