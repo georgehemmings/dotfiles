@@ -22,3 +22,6 @@
 [submodule "vim/vim.symlink/bundle/Auto-Pairs"]
 	path = vim/vim.symlink/bundle/Auto-Pairs
 	url = git://github.com/vim-scripts/Auto-Pairs.git
+[submodule "vim/vim.symlink/bundle/vim-surround"]
+	path = vim/vim.symlink/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
