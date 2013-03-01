@@ -94,14 +94,6 @@ set listchars+=precedes:<  " The character to show in the first column when wrap
 set splitbelow
 set splitright
 
-" Tab navigation
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
-inoremap <C-S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
-
 " F5 to strip trailing whitespace
 function! <SID>StripTrailingWhitespace()
     " Preparation: save last search, and cursor position.
@@ -123,6 +115,14 @@ if has("gui_running")
   set encoding=utf-8              " Use UTF-8 everywhere.
   set guioptions-=T               " Remove toolbar.
   set t_vb=                       " No flash.
+
+  " Tab navigation
+  nnoremap <C-S-tab> :tabprevious<CR>
+  nnoremap <C-tab>   :tabnext<CR>
+  nnoremap <C-t>     :tabnew<CR>
+  inoremap <C-S-tab> <Esc>:tabprevious<CR>i
+  inoremap <C-tab>   <Esc>:tabnext<CR>i
+  inoremap <C-t>     <Esc>:tabnew<CR>
 
   set antialias                   " Smooth fonts.
   set guifont=Source_Code_Pro:h16,Consolas:h16,Monaco:h11
