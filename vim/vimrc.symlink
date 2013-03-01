@@ -80,6 +80,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1  " Ctrl+Tab switches buffer
 
 " NERD Commenter options
 let NERDSpaceDelims = 1
+imap <C-c> <plug>NERDCommenterInsert
 
 " Completion settings
 set completeopt= " Don't show a popup menu to show possible completions
