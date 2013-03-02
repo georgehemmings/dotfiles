@@ -82,6 +82,9 @@ let g:miniBufExplMapCTabSwitchBufs = 1  " Ctrl+Tab switches buffer
 let NERDSpaceDelims = 1
 imap <C-c> <plug>NERDCommenterInsert
 
+" CtrlP options
+let g:ctrlp_use_caching = 0 " Disable caching
+
 " Completion settings
 set completeopt= " Don't show a popup menu to show possible completions
 
