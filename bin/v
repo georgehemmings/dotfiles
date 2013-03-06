@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ "$1" == "" ] ; then
-  exec gvim
+  exec vim
 else
-  exec gvim "$1"
+  exec vim "$1"
 fi
