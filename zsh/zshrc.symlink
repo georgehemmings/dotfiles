@@ -28,6 +28,8 @@ export EDITOR=gvim
 # Add a little colour to ri output.
 alias ri="ri -f ansi"
 
+alias tmux="TERM=screen-16color tmux"
+
 # Pass unmatched arguments to command.
 setopt NO_NOMATCH
 
@@ -54,5 +56,7 @@ for dir in $pathdirs; do
   fi
 done
 
-# Load RVM.
-source ~/.rvm/scripts/rvm
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+path=./bin:$PATH
+
