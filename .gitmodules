@@ -28,3 +28,6 @@
 [submodule "vim/vim.symlink/bundle/vim-ruby"]
 	path = vim/vim.symlink/bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/vim.symlink/bundle/todo.txt-vim"]
+	path = vim/vim.symlink/bundle/todo.txt-vim
+	url = https://github.com/davidoc/todo.txt-vim.git
