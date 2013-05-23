@@ -119,12 +119,14 @@ nnoremap <silent> <F5> :call <SID>StripTrailingWhitespace()<CR>
 nmap <leader>bd :Kwbd<cr>
 
 if has("gui_running")
-  set encoding=utf-8              " Use UTF-8 everywhere.
-  set guioptions-=T               " Remove toolbar.
-  set t_vb=                       " No flash.
+  set encoding=utf-8  " Use UTF-8 everywhere.
 
-  " Disable mouse
-  set mouse-=a
+  set guioptions-=T   " Remove toolbar.
+  set mouse-=a        " Disable mouse.
+
+  set t_vb=           " No visual bell.
+
+  set antialias       " Smooth fonts.
 
   " Tab navigation
   nnoremap <C-S-tab> :tabprevious<CR>
@@ -133,6 +135,14 @@ if has("gui_running")
   inoremap <C-S-tab> <Esc>:tabprevious<CR>i
   inoremap <C-tab>   <Esc>:tabnext<CR>i
   inoremap <C-t>     <Esc>:tabnew<CR>
+endif
+
+if has("gui_win32")
+  set guifont=Consolas:h16
+endif
+
+if has("gui_macvim")
+  set guifont=Source_Code_Pro:h16,Monaco:h11
 
   " Switch to specific tab numbers with Command-number
   noremap <D-1> :tabn 1<CR>
@@ -148,7 +158,6 @@ if has("gui_running")
   " Command-0 goes to the last tab
   noremap <D-0> :tablast<CR>
 
-  set antialias                   " Smooth fonts.
-  set guifont=Source_Code_Pro:h16,Consolas:h16,Monaco:h11
+  " Go fullscreen
   set fu
 endif
