@@ -138,7 +138,7 @@ if has("gui_running")
 endif
 
 if has("gui_win32")
-  set guifont=Consolas:h16
+  set guifont=Consolas:h11
 endif
 
 if has("gui_macvim")
