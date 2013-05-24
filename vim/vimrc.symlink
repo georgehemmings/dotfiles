@@ -124,8 +124,6 @@ if has("gui_running")
   set guioptions-=T   " Remove toolbar.
   set mouse-=a        " Disable mouse.
 
-  set t_vb=           " No visual bell.
-
   set antialias       " Smooth fonts.
 
   " Tab navigation
