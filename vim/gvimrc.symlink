@@ -18,6 +18,7 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 
 if has("gui_win32")
   set guifont=Consolas:h11
+  set lines=40 columns=120
 endif
 
 if has("gui_macvim")
