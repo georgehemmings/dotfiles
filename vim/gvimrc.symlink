@@ -4,7 +4,7 @@ set guioptions+=e   " Show tab pages.
 set guioptions-=T   " Hide toolbar.
 set guioptions-=m   " Hide menu bar.
 set guioptions-=r   " Hide right toolbar.
-set guioptions-=L   " Hide left toolbar.
+set guioptions-=L   " Prevent left toolbar showing when there is a vsplit.
 
 set mouse-=a        " Disable mouse.
 set t_vb=           " No flash.
