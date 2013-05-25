@@ -26,7 +26,7 @@ if has("gui_win32")
 endif
 
 if has("gui_macvim")
-  set guifont=Source_Code_Pro:h16,Monaco:h11
+  set guifont=Source_Code_Pro:h15,Monaco:h11
 
   " Switch to specific tab numbers with Command-number
   noremap <D-1> :tabn 1<CR>
