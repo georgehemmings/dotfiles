@@ -30,8 +30,8 @@ set ruler                         " Show cursor position.
 set foldmethod=syntax
 set foldlevelstart=99             " Start with no folds closed.
 
-"set incsearch                     " Highlight matches as you type.
-"set hlsearch                      " Highlight matches.
+set incsearch                     " Highlight matches as you type.
+set hlsearch                      " Highlight matches.
 
 set nostartofline                 " Keep caret in same column when moving lines, if possible.
 
