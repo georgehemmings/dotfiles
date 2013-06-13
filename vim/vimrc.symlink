@@ -120,3 +120,7 @@ nnoremap <silent> <F5> :call <SID>StripTrailingWhitespace()<CR>
 " Delete buffer in current window without closing the window.
 nmap <leader>bd :Kwbd<cr>
 
+" Clear last used search pattern when starting a new search
+noremap / :let @/ = ""<cr>/
+noremap ? :let @/ = ""<cr>?
+
