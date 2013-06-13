@@ -35,7 +35,7 @@ set hlsearch                      " Highlight matches.
 
 set nostartofline                 " Keep caret in same column when moving lines, if possible.
 
-set wrap                          " Turn on line wrapping.
+set nowrap                        " Turn off line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 
 set title                         " Set the terminal's title
